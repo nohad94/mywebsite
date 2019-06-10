@@ -1,16 +1,19 @@
 .empty{
-    background-color: darkslategray;
     color: beige;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    width: 100%;
     margin: 0%;
 }
 
-.jumbotron{
-    margin-bottom: 0px;
-    padding-top: 10%;
+
+.header-container{
+    background-color: darkslategray;
+    margin: 0%;
+}
+.jumbotron-container{
+    background-color: turquoise;
+    padding: 5%;
 }
 
 img{
