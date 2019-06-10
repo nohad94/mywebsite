@@ -2,16 +2,102 @@
     background-color: darkslategray;
     color: white;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
+    width: 100%;
+}
+
+a:link{
+    color: darkslategray;
 }
 
 .profile-pic{
+    align-content: center;
     border-radius: 50%;
-    border: 2px black solid;
+    padding: 0%;
+    margin: 0%;
 }
 
 .my-name{
-    border: 2px black solid;
+    padding-top: 25%;
     text-align: center;
+    font-size: 60px;
+}
+
+.my-occupation{
+
+    text-align: center;
+    font-size: 30px;
+}
+
+.vertical-center {
+    min-height: 80%;  
+    min-height: 80vh; 
+  
+    display: flex;
+    align-items: center;
+  }
+  
+.about-me{
+    text-align: center;
+    background-color: darkslategray;
+    color:white;
+    font-weight: bold;
+}
+
+.background{
+    text-align: center;
+}
+
+.drive{
+    text-align: center;
+}
+
+.goals{
+    text-align: center; 
+}
+
+.skills{
+    text-align: center;
+    background-color: darkslategray;
+    color:white;
+    font-weight: bold;
+}
+
+.language{
+    text-align: center;
+}
+
+.coding{
+    text-align: center;
+}
+
+#backgroundcontent {
+    padding: 10%;
+    list-style: none;
+    border-top: none;
+}
+
+#drivecontent{
+    padding: 10%;
+    list-style: none;
+    border-top: none;
+}
+
+#goalscontent{
+    padding: 10%;
+    list-style: none;
+    border-top: none;
+}
+
+#languagecontent{
+    padding: 10%;
+    list-style: none;
+    border-top: none;
+}
+
+#codingcontent{
+    padding: 10%;
+    list-style: none;
+    border-top: none;
 }
