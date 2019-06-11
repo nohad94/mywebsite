@@ -21,6 +21,24 @@
     background-color: rgb(0, 0, 18);
 }
 
+.navbar-container{
+    background-color: rgb(0, 0, 18);
+}
+
+.navbar-container nav{
+    background-color: rgb(2, 56, 2);
+    border-top: 1px solid rgb(0, 0, 18);
+}
+
+
+.navbar-container nav a{
+    color: beige;
+}
+
+.navbar-container nav h3{
+    color: beige;
+}
+
 .sub-containers h3{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -43,16 +61,15 @@
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     color: beige;
-    border-left: 2px solid beige;
-    text-align: right;
+    border-right: 2px solid beige;
     height: 100px;
 }
 
 .sub-containers1 ul{
     color: beige;
     padding-left: 5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 1%;
+    padding-bottom: 2.5%;
     height: 100px;
     font-size: 14px;
     list-style: circle;
