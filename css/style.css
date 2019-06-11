@@ -6,30 +6,60 @@
     margin: 0%;
 }
 
-
 .header-container{
-    background-color: darkslategray;
+    background-color: rgb(2, 56, 2);
     margin: 0%;
 }
 
 .jumbotron-container{
-    background-color: rgb(0, 0, 14);
+    background-color: rgb(0, 0, 18);
     padding: 5%;
 }
 
 .main-container{
     margin: 0%;
-    background-color: rgb(0, 0, 14);
+    background-color: rgb(0, 0, 18);
 }
 
+.sub-containers h3{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: beige;
+    border-right: 2px solid beige;
+    height: 100px;
+}
+
+.sub-containers p{
+    color: beige;
+    padding-left: 5%;
+    margin-top: 1%;
+    padding-bottom: 2.5%;
+    height: 100px;
+    font-size: 14px;
+}
+
+
+.sub-containers1 h3{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: beige;
+    border-left: 2px solid beige;
+    text-align: right;
+    height: 100px;
+}
+
+.sub-containers1 ul{
+    color: beige;
+    padding-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    height: 100px;
+    font-size: 14px;
+    list-style: circle;
+}
 
 img{
     display: block;
-}
-
-a:link{
-    color: beige;
-    text-align: center;
 }
 
 .profile-pic{
@@ -59,31 +89,13 @@ a:link{
   
 .about-me{
     text-align: center;
-    background-color: darkslategray;
+    background-color: rgb(2, 56, 2);
     color:beige;
     font-weight: bold;
     font-size: 35px;
     margin: 0;
-    margin-top: 0%;
-}
-
-.link-hover a:hover{
-    text-decoration: none;
-}
-
-.link-hover h1{
-    font-size: 30px;
-    padding-bottom: 20%;
-    padding-top: 20%;
-    background-color: rgb(0, 0, 14);
-    margin-top: 0%;
-    margin-bottom: 0%;
-    border-bottom: 0px solid darkslategray;
-}
-
-.link-hover h1:hover{
-    color: beige;
-    text-transform: uppercase;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 header{
