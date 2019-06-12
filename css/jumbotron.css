@@ -1,6 +1,9 @@
+div {
+    box-sizing: border-box;
+}
+
 .profile-pic{
     border-radius: 50%;
-    text-align: center;
     margin: auto;
     display: block;
 }
@@ -27,5 +30,11 @@
 .jumbotron-container{
     background-color: rgb(0, 0, 18);
     padding: 5%;
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
   
