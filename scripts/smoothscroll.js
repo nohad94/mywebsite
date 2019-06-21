@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $("a").on('click', function(event) {
 
-        if (this.hass !== ""){
+        if (this.hash !== ""){
             event.preventDefault;
             var hash = this.hash;
 
