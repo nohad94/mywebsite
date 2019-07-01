@@ -59,3 +59,20 @@
 #bottomcontainer{
     border-bottom: 1px solid beige;
 }
+
+@media (max-width: 802px){
+    #topcontainer{
+        border-top: 0px;
+    }
+    #bottomcontainer{
+        border-top: 0px;
+    }
+
+    .sub-containers h3{
+        font-size: 16px;
+    }
+
+    .about-me{
+        font-size: 24px;
+    }
+}
