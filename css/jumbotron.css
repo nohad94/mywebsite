@@ -32,6 +32,23 @@ div {
     padding: 5%;
 }
 
+#top-jumbotron{
+    margin-top: 5%;
+}
+
+
+@media (max-width:695px){
+#top-jumbotron{
+    margin-top: 10%;
+}
+}
+
+@media (max-width:463px){
+    #top-jumbotron{
+        margin-top: 20%;
+    }
+}
+
 #bottom-jumbotron{
     padding-top: 15%;
 }
